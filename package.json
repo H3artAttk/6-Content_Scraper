@@ -1,0 +1,19 @@
+{
+  "name": "6-content_scraper",
+  "version": "1.0.0",
+  "description": "Content Scraping App",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahmatsell/6-Content_Scraper.git"
+  },
+  "author": "Noah Matsell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noahmatsell/6-Content_Scraper/issues"
+  },
+  "homepage": "https://github.com/noahmatsell/6-Content_Scraper#readme"
+}
