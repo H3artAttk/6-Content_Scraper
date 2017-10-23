@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/noahmatsell/6-Content_Scraper/issues"
   },
-  "homepage": "https://github.com/noahmatsell/6-Content_Scraper#readme"
+  "homepage": "https://github.com/noahmatsell/6-Content_Scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0"
+  }
 }
