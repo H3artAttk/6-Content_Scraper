@@ -1,3 +1,6 @@
+const csv = require('csv');
+const request = require('request');
+const cheerio = require('cheerio');
 //Check for a folder ‘data’. If it exist, create one.
 //get the price, title, url and image url from the product page
 //Should be stored in an CSV file that is named for the date, e.g. 2016-11-21.csv.
