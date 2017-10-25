@@ -3,7 +3,7 @@ const request = require('request');
 const cheerio = require('cheerio');
 //Check for a folder ‘data’. If it exist, create one.
 let url = "http://www.shirts4mike.com/shirts.php";
-
+let shirts = [];
 //request html
 request(url, function(error, response, html){
   if(!error){
@@ -13,14 +13,21 @@ request(url, function(error, response, html){
 
 //parse out products from html
 function getProducts(html){
-	var $ = cheerio.load(html);
-	$('.products li').forEach(function(element) {
-		//get href from nested a in li
-	});
+	let $ = cheerio.load(html);
+	// $('.products li').forEach(function(element) {
+	// 	//get href from nested a in li
+ //    element
+	// });
+  shirtLinks = $('.products li').map(function(i, el) {
+    // this === el
+    return $(this).attr('href');
+  });
+  console.log(shirtLinks);
+  getShirtDetails(shirtLinks);
 };
 
 //get the price, title, url and image url from the product page
-function getShirtDetails(){
+function getShirtDetails(shirtLinks){
 	request();
 };
 
