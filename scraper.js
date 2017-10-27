@@ -11,6 +11,7 @@ var fields = ['title', 'price', 'imageurl', 'url'];
 //Check for data folder
 //if none, create
 
+
 //request html
 request(url+"shirts.php", function(error, response, html){
 	  if(!error){
