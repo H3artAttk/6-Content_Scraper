@@ -18,7 +18,8 @@
   "homepage": "https://github.com/noahmatsell/6-Content_Scraper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "csv": "^2.0.0",
+    "json2csv": "^3.11.5",
     "request": "^2.83.0"
-  }
+  },
+  "devDependencies": {}
 }
