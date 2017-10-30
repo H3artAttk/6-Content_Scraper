@@ -5,7 +5,6 @@ const fs = require('fs');
 
 //Check for a folder ‘data’. If it exist, create one.
 let url = "http://www.shirts4mike.com/";
-let products = [];
 var fields = ['title', 'price', 'imageurl', 'url','time'];
 
 //Check for data folder
